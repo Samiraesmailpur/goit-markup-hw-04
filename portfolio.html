@@ -22,132 +22,191 @@
     <header class="page-header">
       <div class="container main-nav">
         <nav class="nav">
-          <a href="./index.html" class="logo-link"> Web<span class="logo-black">Studio</span> </a>
-          <ul class="site-nav">
-            <li class="item"><a href="./index.html" class="link">Студия</a></li>
-            <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
-            <li class="item"><a href="" class="link">Контакты</a></li>
+          <a href="./index.html" class="logo-link text-decoration">
+            Web<span class="logo-black">Studio</span>
+          </a>
+          <ul class="site-nav list">
+            <li class="item-nav">
+              <a href="./index.html" class="link text-decoration">Студия</a>
+            </li>
+            <li class="item-nav">
+              <a href="./portfolio.html" class="link current text-decoration"
+                >Портфолио</a
+              >
+            </li>
+            <li class="item-nav">
+              <a href="" class="link text-decoration">Контакты</a>
+            </li>
           </ul>
         </nav>
-        <div class="contact-block">
-          <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a>
-          <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a>
-        </div>
+        <ul class="contact-block list">
+          <li class="contact-item">
+            <a href="mailto:info@devstudio.com" class="contact text-decoration">
+              <svg class="mail-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="contact-item">
+            <a href="tel:+380961111111" class="contact text-decoration">
+              <svg class="tel-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <!-- основная часть сайта -->
     <main>
-      <section class="section">
+      <section class="section portfolio-section">
         <div class="container">
           <h1 class="visually-hidden">Портфолио</h1>
-          <ul class="filter-list">
-            <li class="item"><button type="button" class="btn">Все</button></li>
-            <li class="item"><button type="button" class="btn">Веб-сайты</button></li>
-            <li class="item"><button type="button" class="btn">Приложения</button></li>
-            <li class="item"><button type="button" class="btn">Дизайн</button></li>
-            <li class="item"><button type="button" class="btn">Маркетинг</button></li>
+          <ul class="filter-list list">
+            <li class="item-btn">
+              <button type="button" class="btn">Все</button>
+            </li>
+            <li class="item-btn">
+              <button type="button" class="btn">Веб-сайты</button>
+            </li>
+            <li class="item-btn">
+              <button type="button" class="btn">Приложения</button>
+            </li>
+            <li class="item-btn">
+              <button type="button" class="btn">Дизайн</button>
+            </li>
+            <li class="item-btn">
+              <button type="button" class="btn">Маркетинг</button>
+            </li>
           </ul>
-          <ul class="list">
+          <ul class="portfolio-list list">
             <li class="item">
-              <a href=""
-                ><img class="portfolio-img" src="./images/pic1.jpg" alt="Технокряк" width="370"
-              /></a>
-              <div class="p-20-24">
-                <h2 class="caption">Технокряк</h2>
-                <p class="content">Веб-сайт</p>
-              </div>
+              <a class="link text-decoration" href=""
+                ><img
+                  class="portfolio-img"
+                  src="./images/pic1.jpg"
+                  alt="Технокряк"
+                  width="370"
+                />
+                <div class="p-20-24">
+                  <h2 class="caption">Технокряк</h2>
+                  <p class="content">Веб-сайт</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <a href=""
+              <a class="link text-decoration" href=""
                 ><img
                   class="portfolio-img"
                   src="./images/pic2.jpg"
                   alt="Постер New Orlean vs Golden Star"
                   width="370"
-              /></a>
-              <div class="p-20-24">
-                <h2 class="caption">Постер New Orlean vs Golden Star</h2>
-                <p class="content">Дизайн</p>
-              </div>
+                />
+                <div class="p-20-24">
+                  <h2 class="caption">Постер New Orlean vs Golden Star</h2>
+                  <p class="content">Дизайн</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <a href=""
+              <a class="link text-decoration" href=""
                 ><img
                   class="portfolio-img"
                   src="./images/pic3.jpg"
                   alt="Ресторан Seafood"
                   width="370"
-              /></a>
-              <div class="p-20-24">
-                <h2 class="caption">Ресторан Seafood</h2>
-                <p class="content">Приложение</p>
-              </div>
+                />
+                <div class="p-20-24">
+                  <h2 class="caption">Ресторан Seafood</h2>
+                  <p class="content">Приложение</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <a href=""
-                ><img class="portfolio-img" src="./images/pic4.jpg" alt="Проект Prime" width="370"
-              /></a>
-              <div class="p-20-24">
-                <h2 class="caption">Проект Prime</h2>
-                <p class="content">Маркетинг</p>
-              </div>
+              <a class="link text-decoration" href=""
+                ><img
+                  class="portfolio-img"
+                  src="./images/pic4.jpg"
+                  alt="Проект Prime"
+                  width="370"
+                />
+                <div class="p-20-24">
+                  <h2 class="caption">Проект Prime</h2>
+                  <p class="content">Маркетинг</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <a href=""
-                ><img class="portfolio-img" src="./images/pic5.jpg" alt="Проект Boxes" width="370"
-              /></a>
-              <div class="p-20-24">
-                <h2 class="caption">Проект Boxes</h2>
-                <p class="content">Приложение</p>
-              </div>
+              <a class="link text-decoration" href=""
+                ><img
+                  class="portfolio-img"
+                  src="./images/pic5.jpg"
+                  alt="Проект Boxes"
+                  width="370"
+                />
+                <div class="p-20-24">
+                  <h2 class="caption">Проект Boxes</h2>
+                  <p class="content">Приложение</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <a href=""
+              <a class="link text-decoration" href=""
                 ><img
                   class="portfolio-img"
                   src="./images/pic6.jpg"
                   alt="Inspiration has no Borders"
                   width="370"
-              /></a>
-              <div class="p-20-24">
-                <h2 class="caption">Inspiration has no Borders</h2>
-                <p class="content">Веб-сайт</p>
-              </div>
+                />
+                <div class="p-20-24">
+                  <h2 class="caption">Inspiration has no Borders</h2>
+                  <p class="content">Веб-сайт</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <a href=""
+              <a class="link text-decoration" href=""
                 ><img
                   class="portfolio-img"
                   src="./images/pic7.jpg"
                   alt="Издание Limited Edition"
                   width="370"
-              /></a>
-              <div class="p-20-24">
-                <h2 class="caption">Издание Limited Edition</h2>
-                <p class="content">Дизайн</p>
-              </div>
+                />
+                <div class="p-20-24">
+                  <h2 class="caption">Издание Limited Edition</h2>
+                  <p class="content">Дизайн</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <a href=""
-                ><img class="portfolio-img" src="./images/pic8.jpg" alt="Проект LAB" width="370"
-              /></a>
-              <div class="p-20-24">
-                <h2 class="caption">Проект LAB</h2>
-                <p class="content">Маркетинг</p>
-              </div>
+              <a class="link text-decoration" href=""
+                ><img
+                  class="portfolio-img"
+                  src="./images/pic8.jpg"
+                  alt="Проект LAB"
+                  width="370"
+                />
+                <div class="p-20-24">
+                  <h2 class="caption">Проект LAB</h2>
+                  <p class="content">Маркетинг</p>
+                </div>
+              </a>
             </li>
             <li class="item">
-              <a href=""
+              <a class="link text-decoration" href=""
                 ><img
                   class="portfolio-img"
                   src="./images/pic9.jpg"
                   alt="Growing Business"
                   width="370"
-              /></a>
-              <div class="p-20-24">
-                <h2 class="caption">Growing Business</h2>
-                <p class="content">Приложение</p>
-              </div>
+                />
+                <div class="p-20-24">
+                  <h2 class="caption">Growing Business</h2>
+                  <p class="content">Приложение</p>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
@@ -156,16 +215,53 @@
     <!-- Подвал сайта -->
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo-link"> Web<span class="logo-white">Studio</span> </a>
+        <div class="address-join-footer">
+        <div class="footer-contact">
+        <a href="./index.html" class="logo-link text-decoration"> Web<span class="logo-white">Studio</span> </a>
         <address class="address">
-          <a class="link" href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer"
-            >г. Киев, пр-т Леси Украинки, 26</a
-          >
+          <a class="link text-decoration" href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer">
+            г. Киев, пр-т Леси Украинки, 26
+          </a>
         </address>
         <address class="contact-address">
-          <a class="contact email" href="mailto:info@example.com">info@example.com</a><br />
-          <a class="contact" href="tel:+380991111111">+38 099 111 11 11</a>
+          <a class="contact email text-decoration" href="mailto:info@example.com">info@example.com</a><br />
+          <a class="contact text-decoration" href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
+        </div>
+      <div class="join">
+        <p class="join-title">присоединяйтесь</p>
+        <ul class="join-list list">
+          <li class="item">
+            <a class="join-list-link" href="">
+                <svg width="20px" height="20px">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a class="join-list-link" href="">
+                <svg class="" width="20px" height="20px">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a class="join-list-link" href="">
+                <svg class="" width="20px" height="20px">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a class="join-list-link" href="">
+                    <svg class="" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul> 
+          </div>
+        </div>
       </div>
     </footer>
   </body>
